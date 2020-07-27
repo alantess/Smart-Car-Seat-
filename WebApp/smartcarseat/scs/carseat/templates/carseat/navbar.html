@@ -1,0 +1,23 @@
+{% load static %}
+<style>
+  .logoutBtn{
+position:fixed;
+right:10px;
+top:5px;
+padding:5px;
+margin:5px 5px 5px 5px;
+background-color:#8A2012;
+border-radius:5px;
+border-radius:5px;
+color:white;
+}
+.logoutBtn:hover{
+transition:ease;
+color:white;
+background-color: #AA3533;
+text-decoration:none;
+}
+</style>
+
+
+      <span> <a href="{% url 'logout' %}" class="logoutBtn ">Logout</a> </span>
