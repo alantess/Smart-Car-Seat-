@@ -19,14 +19,14 @@ from .tests import *
 def send_json(request):
 
     Config = {
-        "apiKey": "AIzaSyAHWyf7gRdCAFExGz8vF9qIMlj1dQOWkYU",
-        "authDomain": "smart-seat-f37f8.firebaseapp.com",
-        "databaseURL": "https://smart-seat-f37f8.firebaseio.com",
-        "projectId": "smart-seat-f37f8",
-        "storageBucket": "smart-seat-f37f8.appspot.com",
-        "messagingSenderId": "555682731681",
-        "appId": "1:555682731681:web:bbff92ad6a7886171942e0"
-    }
+            "apiKey": "********************",
+            "authDomain": "********************",
+            "databaseURL": "********************",
+            "projectId": "********************",
+            "storageBucket": "********************",
+            "messagingSenderId": "********************",
+            "appId": "********************"
+        }
 
     firebase = pyrebase.initialize_app(Config)
 
@@ -118,16 +118,16 @@ def logoutUser(request):
 
 @login_required(login_url='login')
 def home(request):
-
     Config = {
-        "apiKey": "AIzaSyAHWyf7gRdCAFExGz8vF9qIMlj1dQOWkYU",
-        "authDomain": "smart-seat-f37f8.firebaseapp.com",
-        "databaseURL": "https://smart-seat-f37f8.firebaseio.com",
-        "projectId": "smart-seat-f37f8",
-        "storageBucket": "smart-seat-f37f8.appspot.com",
-        "messagingSenderId": "555682731681",
-        "appId": "1:555682731681:web:bbff92ad6a7886171942e0"
-    }
+            "apiKey": "********************",
+            "authDomain": "********************",
+            "databaseURL": "********************",
+            "projectId": "********************",
+            "storageBucket": "********************",
+            "messagingSenderId": "********************",
+            "appId": "********************"
+        }
+
 
     firebase = pyrebase.initialize_app(Config)
 

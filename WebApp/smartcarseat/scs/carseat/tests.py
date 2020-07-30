@@ -17,13 +17,13 @@ import matplotlib.pyplot as plt
 
 def seatSafety():
     Config = {
-            "apiKey": "AIzaSyAHWyf7gRdCAFExGz8vF9qIMlj1dQOWkYU",
-            "authDomain": "smart-seat-f37f8.firebaseapp.com",
-            "databaseURL": "https://smart-seat-f37f8.firebaseio.com",
-            "projectId": "smart-seat-f37f8",
-            "storageBucket": "smart-seat-f37f8.appspot.com",
-            "messagingSenderId": "555682731681",
-            "appId": "1:555682731681:web:bbff92ad6a7886171942e0"
+            "apiKey": "********************",
+            "authDomain": "********************",
+            "databaseURL": "********************",
+            "projectId": "********************",
+            "storageBucket": "********************",
+            "messagingSenderId": "********************",
+            "appId": "********************"
         }
 
     firebase = pyrebase.initialize_app(Config)
@@ -42,8 +42,8 @@ def seatSafety():
 
 
 
-    TRAIN_DATA_URL = "https://docs.google.com/spreadsheets/d/1HBwBDxobibCzLfEBBlA8vFXY8afACi3vW9Xcw08hKhc/edit#gid=1892081344"
-    TEST_DATA_URL = 'https://docs.google.com/spreadsheets/d/1LfsZT8lm7alXyyN5G0oJUfKBTBJFEK58Uc-TryEpNuk/edit#gid=1892081344'
+    TRAIN_DATA_URL = "https://docs.google.com/spreadsheets/d/**************"
+    TEST_DATA_URL = 'https://docs.google.com/spreadsheets/d/**************'
     csv_test_url = TEST_DATA_URL.replace('/edit#gid=', '/export?format=csv&gid=')
     csv_export_url = TRAIN_DATA_URL.replace('/edit#gid=', '/export?format=csv&gid=')
 
